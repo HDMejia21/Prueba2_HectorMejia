@@ -1,0 +1,133 @@
+:root {
+    --color-general: #898989;
+    --color-fondo-gris: #f9f9f9;
+    --color-titulos: #282d33;
+    --color-iconos: #e0e0e0;
+    --color-checks: #53c3c9;
+    --font-titulo: "Catamaran", sans-serif;
+    --font-contenido: "Catamaran", sans-serif;
+	
+}
+
+body{
+	font-size: 24px;
+	font-family:  "Catamaran VariableFont wght"; 
+}
+
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+#hero h1 {
+    color: var(--color-titulos);
+}
+
+#hero img {
+    max-width: 100%;
+}
+
+.services {
+    background-color: var(--color-fondo-gris);
+    padding: 100px 0;
+}
+
+.section-title {
+    font-family:  "Catamaran VariableFont wght";
+    color: var(--color-titulos);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item i {
+    color: var(--color-iconos);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cta {
+    background-image: url("../img/using-touchscreen.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #fff;
+	height: 500px;
+	padding-bottom: 250px;
+}
+
+.cta-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+	align-content: center;
+}
+
+.cta h2 {
+    font-family: "Catamaran VariableFont wght";
+    margin-bottom: 10px;
+	font-size: 60px;
+	padding-left: 200px;
+	
+}
+
+.cta p{
+	font-size: 24px;
+}
+
+.btn-light {
+    background-color: #fff;
+	font-size: 24px;
+    color: var(--color-titulos);
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    text-decoration: none;
+	align-content: center;
+}
+.customers {
+	 padding: 70px 0;
+    text-align: center;
+}
+
+.customers-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.customers-logos img {
+    max-width: 190px;
+}
+
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
